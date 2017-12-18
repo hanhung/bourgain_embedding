@@ -11,6 +11,7 @@ The running time of the algorithm is approximately O(log(n)^2*n^2*t), provided t
 
 Suppose you have in machine learning a dataframe, which has mixed categorical and numerical values, but your favourite machine learning algorithm works only with numeric features. The options you have is to one-hot-encode the categorical features, or you could directly embed every instance of the sample in euclidean space. This way you have only numerical features and can ran your algorithm. 
 
-# Is there some guarantee, that this will work.
+# Is there some guarantee, that this will work?
 
 Well, the Bourgain Theorem guarantees, that every finite metric space X with n points will be embedded in euclidean space with distortion at most log(n). This is a good thing, since there is a theorem, which proves, that it doesn't go any better.
+
